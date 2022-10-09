@@ -1,0 +1,3 @@
+01-bundle-dependencies.patch
+02-ignore-failing-tests.patch
+maven-bundle-plugin-failok.patch

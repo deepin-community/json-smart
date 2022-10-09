@@ -1,0 +1,26 @@
+json-smart (2.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add maven-bundle-plugin-failok.patch and work around a FTBFS
+    caused by a bug in maven-bundle-plugin. See #868913 for more information.
+    (Closes: #868603)
+  * Switch to compat level 10.
+  * Declare compliance with Debian Policy 4.1.1.
+  * Use https for format field.
+
+ -- Markus Koschany <apo@debian.org>  Mon, 16 Oct 2017 15:52:50 +0200
+
+json-smart (2.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - Build the new accessors-smart module
+    - Ignore the timezone dependent tests in TestDateConvert
+  * Standards-Version updated to 3.9.8
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Wed, 03 Aug 2016 10:06:43 +0200
+
+json-smart (1.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #819635)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 31 Mar 2016 13:21:52 +0200

@@ -1,0 +1,15 @@
+Description: Set the version and the type of the accessors-smart dependency
+ to work around a build failure with maven-debian-helper
+Author: Emmanuel Bourg <ebourg@apache.org>
+Forwarded: not-needed
+--- a/json-smart/pom.xml
++++ b/json-smart/pom.xml
+@@ -32,6 +32,8 @@
+ 		<dependency>
+ 			<groupId>net.minidev</groupId>
+ 			<artifactId>accessors-smart</artifactId>
++			<version>1.1</version>
++			<type>bundle</type>
+ 		</dependency>
+ 
+ 	</dependencies>
